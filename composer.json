@@ -1,0 +1,7 @@
+{
+	"require": {
+		"coderkungfu/php-queue": "dev-master",
+		"clio/clio": "@stable",
+		"mrpoundsign/pheanstalk-5.3": "dev-master"
+	}
+}

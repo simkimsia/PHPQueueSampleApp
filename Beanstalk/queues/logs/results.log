@@ -1,0 +1,7 @@
+[2013-08-13 12:16:40] BeanstalkSampleLogger.INFO: Result: add job {"story_id":48} []
+[2013-08-13 12:16:46] BeanstalkSampleLogger.INFO: Result: get job {"worker":"ConvertEPub","data":{"story_id":48}} []
+[2013-08-13 12:16:46] BeanstalkSampleLogger.INFO: Result: get job again {"worker":"ConvertEPub","data":{"story_id":48}} []
+[2013-08-13 13:52:37] BeanstalkSampleLogger.INFO: Result: add job {"story_id":48} []
+[2013-08-13 13:52:38] BeanstalkSampleLogger.INFO: Result: get job {"worker":"ConvertEPub","data":{"story_id":48}} []
+[2013-08-13 13:52:38] BeanstalkSampleLogger.INFO: Result: get job again {"worker":"ConvertEPub","data":{"story_id":48}} []
+[2013-08-13 13:53:17] BeanstalkSampleLogger.INFO: Result: add job {"story_id":48} []
