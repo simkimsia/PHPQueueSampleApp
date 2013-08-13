@@ -1,8 +1,0 @@
-[2013-08-12 22:16:35] ConvertEPub.ERROR: No job found. [] []
-[2013-08-12 22:16:35] ConvertEPub.NOTICE: No Job found. [] []
-[2013-08-12 22:16:35] ConvertEPub.INFO: Sleeping 10 seconds. [] []
-[2013-08-12 22:16:42] ConvertEPub.ERROR: No job found. [] []
-[2013-08-12 22:16:42] ConvertEPub.NOTICE: No Job found. [] []
-[2013-08-12 22:16:42] ConvertEPub.INFO: Sleeping 10 seconds. [] []
-[2013-08-12 22:16:52] ConvertEPub.INFO: Running chained new job (1) with workers ["ConvertEPub"] []
-[2013-08-12 22:16:52] ConvertEPub.INFO: Running new job (1) with worker: ConvertEPub [] []
