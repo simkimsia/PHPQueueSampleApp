@@ -47,17 +47,17 @@ class ConvertEPubQueue extends PHPQueue\JobQueue
         $this->resultLog->addInfo('Result: get job again', $data);
         try
         {
-            $this->resultLog->addInfo('Result: this->dataSource->last_job_id', $this->dataSource->last_job_id);
+            $this->resultLog->addInfo('Result: this->dataSource->last_job_id' . $this->dataSource->last_job_id);
             $nextJob = new \PHPQueue\Job($data, $this->dataSource->last_job_id);
-            $this->resultLog->addInfo('Result: get next job', $nextJob);
+            $this->resultLog->addInfo('Result: get next job', $nextJob->data);
         }
         catch (Exception $ex)
         {
-            $this->resultLog->addError('Exception thrown when instantiating Job class', $ex);
+            $this->resultLog->addError('Exception thrown when instantiating Job class: ' . $ex->getMessage());
             throw $ex;
         }
         $this->last_job_id = $this->dataSource->last_job_id;
-        $this->resultLog->addInfo('Result: this->last_job_id', $this->last_job_id);
+        $this->resultLog->addInfo('Result: this->last_job_id' . $this->last_job_id);
 
         return $nextJob;
     }
