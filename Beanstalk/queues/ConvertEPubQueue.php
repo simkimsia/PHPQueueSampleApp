@@ -45,8 +45,6 @@ class ConvertEPubQueue extends PHPQueue\JobQueue
         $data = $this->dataSource->get();
         $this->resultLog->addInfo('Result: get job', $data);
         $this->resultLog->addInfo('Result: get job again', $data);
-        debug($this->dataSource);
-        $this->resultLog->addInfo($this->dataSource);
         try
         {
             $this->resultLog->addInfo('Result: this->dataSource->last_job_id', $this->dataSource->last_job_id);
